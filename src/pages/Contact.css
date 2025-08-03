@@ -1,0 +1,83 @@
+
+.contact-page {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(back2.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  justify-content: center;
+  padding: 2rem;
+  color: #fefcfc;
+  
+}
+
+.contact-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  max-width: 400px;
+}
+
+.contact-info h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f5f1f1;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  background-color: #fff;
+}
+
+.send-btn {
+  background-color: #0a504ee7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #05de3b80;
+}
+
+.recaptcha-note {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.recaptcha-note a {
+  text-decoration: underline;
+  color: #555;
+}

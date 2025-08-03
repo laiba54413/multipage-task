@@ -1,0 +1,14 @@
+.site-footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ffffff; 
+  font-style: italic;
+  background: transparent;
+  padding: 0.5rem 0;
+  z-index: 1000;
+  pointer-events: none; 
+}
+
