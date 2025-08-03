@@ -2,7 +2,7 @@
   text-align: center;
   .App {
   min-height: 100vh;
-  background: linear-gradient(to right, #2e003e, #4b0082); /* Or your preferred background */
+  background: linear-gradient(to right, #2e003e, #4b0082); 
 }
 
 }
